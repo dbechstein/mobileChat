@@ -1,0 +1,56 @@
+﻿<!Doctype html>
+<html lang="de">
+    <head>
+        <title>MobileChat</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/JQueryUI/themes/base/jquery.ui.all.css">
+		<!--Script references. -->
+		<!--Reference the jQuery library. -->
+		<script src="js/jquery-1.6.4.min.js"></script>
+		<script src="js/ui/jquery.ui.core.js"></script>
+		<script src="js/ui/jquery.ui.widget.js"></script>
+		<script src="js/ui/jquery.ui.mouse.js"></script>
+		<script src="js/ui/jquery.ui.draggable.js"></script>
+		<script src="js/ui/jquery.ui.resizable.js"></script>
+
+        <!--[if lt IE 9]>
+            <script>
+                document.createElement('header');
+                document.createElement('nav');
+                document.createElement('footer');
+            </script>
+        <![endif]-->
+		<script src="js/jquery.signalR-2.2.0.min.js"></script>
+		<script src="http://217.182.33.70/signalr/hubs"></script>
+        <script src="cordova.js"></script>
+		<script src="js/script.js"></script>
+		
+		</head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>david-poland.de</h1>
+				<h2>Mobile-Chat</h2>
+            </header>
+
+            <div id="content">
+					<input id="email" type="text" name="email" placeholder="E-MAIL"><br>
+					<input id="password" type="password" name="password" placeholder="PASSWORD"><br>
+					<button id="login">LogIn</button>
+            </div>
+            <footer>
+				<nav>
+					<ul>
+						<li id="lostPassword"><p>LOST PASSWORD</p></li>
+						<li id="register"><p>REGISTER</p></li>
+					</ul>
+				</nav>
+            </footer>
+        </div>
+
+        <input id="hdId" type="hidden" />
+        <input id="hdUserName" type="hidden" />
+    </body>
+</html>

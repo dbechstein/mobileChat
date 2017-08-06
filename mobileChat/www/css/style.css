@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #161c28;
+	color: #01b0ef;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+#content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#content #email, #password {
+	border-radius: 25px;
+	border: 2px solid #01b0ef;
+	width: 100%;
+	margin-top: 20px;
+	height: 50px;
+	background-image: linear-gradient(to right, #16314c 0%, #18273c 70%);
+	color: #71cff3;
+	font-weight: bold;	
+	text-align: center;
+}
+
+#content #login {
+	background-color: #01aef0;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	width: 100%;
+	margin-top: 20px;
+	height: 50px;
+	color: #fff;
+	font-weight: bold;	
+}
+
+#userlist ul {
+	width: 100%;
+}
+
+#userlist li {
+	width: 100%;
+	background-color: #ddd;
+	height: 60px;
+	background-image: linear-gradient(to bottom, #16314c 0%, #18273c 70%);
+	list-style-type: none;
+	color: #fff;
+}
+
+#userlist li h2 {
+	font-size: 12pt;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+#userlist li span {
+	float: right;
+	font-size: 10pt;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+#userlist li p {
+
+	margin-left: 50px;
+	padding-top: 32px;
+	padding-left: 20px;
+	font-size: 10pt;
+}
+
+#userlist li img {
+	border-radius: 50%;
+	width: 40px;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+#userlist #height {
+	height: 50px;
+}
+
+#privmsg  {
+	width: 100%;
+	height: auto;
+	position:absolute; 
+}
+
+#privmsg .ui-widget-content {
+	border: none !important;
+}
+
+#privmsg .privHeader {
+	width: 100%;
+	background-color: #ddd;
+	height: 60px;
+	background-image: linear-gradient(to bottom, #16314c 0%, #18273c 70%);
+	list-style-type: none;
+	color: #fff;
+	border: none;
+	float: left;
+	position: fixed;
+}
+
+#privmsg .privHeader img{
+	border-radius: 50%;
+	width: 40px;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+#privmsg h2 {
+	font-size: 12pt;
+	padding-top: 20px;
+	padding-left: 10px;
+	float: left;
+}
+
+#privmsg span {
+	float: right;
+	font-size: 10pt;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#privmsg #goBack {
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#privmsg #Message {
+	padding-top: 80px;
+}
+
+footer #txtPrivateMessage {
+	width: 70%;
+	min-height: 50px;
+	border-radius: 3px;
+	float: left;
+	overflow: auto;
+	border: none;
+}
+
+footer #btnSendMessage {
+	width: 30%;
+	float: right;
+	background-color: #16314c;
+	height: 50px;
+	border: none;
+	color: #fff;
+}
+
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0px; right: 0px
+}
+
+footer li {
+	font-size: 10pt;
+	background-color: #0b121c;
+	border-top: 2px solid #152232;
+	list-style-type: none;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 16px;
+}
+
+
+footer ul {
+	width: 100%;
+	background-color: #152232;
+	height: 50px;
+}
+
+
+#lostPassword {
+	float: left;
+	clear: left;
+	width: 49.8%;
+	height: 50px;
+	position: block;
+}
+
+#register {
+	float: right;
+	clear: right;
+	width: 49.8%;
+	height: 50px;
+	position: block;
+}
+
+.height {
+	height: 70px;
+	float: left;
+}
+
